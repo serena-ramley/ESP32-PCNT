@@ -9,7 +9,7 @@ For more background, refer to: https://randomnerdtutorials.com/install-esp32-fil
 ## To upload code:
 (0) Open the file or folder in your Arduino IDE. Plug in the board via USB. Select Tools -> Port -> Select the correct COM port and Tools -> Board -> ESP32 Dev Module <br>
 (i) Press "Upload" in the Arduino IDE<br>
-(ii) After it's done compiling, hold down the "boot" button on the ESP32 board. See Pin Layout section below<br>
+(ii) After it's done compiling, hold down the "boot" button on the ESP32 board. See Pin Layout section below. It also doesn't hurt if you hold down "Boot" while it's still compiling.<br>
 (iii) After Connecting... changes to Writing..., release the "boot" button<br>
 
 I would generally recommend not connecting the circuit to the board when uploading, in case any pins may have different input/output settings. After uploading the connect, disconnect the board from USB to remove power, then connect the circuit, then plug the board back into USB (or power).
