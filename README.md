@@ -1,4 +1,4 @@
-# ESP32-softAP-PCNT
+# ESP32-PCNT
 
 ## Set up your IDE
 (i) Download the Arduino IDE: https://www.arduino.cc/en/Main/Software <br>
