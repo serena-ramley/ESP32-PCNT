@@ -1,5 +1,5 @@
 /*
- * Serena Ramley, UBC Engineering
+ * Serena Ramley, January 20, 2020
  * 
  * Pin Connections:
  * GPIO4 is Pulse Input PIN (PCNT_INPUT_SIG_IO in my-pcnt.h)
@@ -10,7 +10,7 @@
 
 #include "my-pcnt.h"
 
-#define WAIT_MS  2000 // Time to wait (in ms) before reporting pulse count reading
+#define WAIT_MS  10 // Time to wait (in milliseconds) before reporting pulse count reading
 
 
 void setup() {
@@ -26,6 +26,4 @@ void loop() {
   pcnt_get(&count);
   Serial.printf("\nCurrent counter value :%d\n", count);
   pcnt_clear();
-  pcnt_get(&count);
-  Serial.printf("\nCurrent counter value :%d\n", count);
 }
