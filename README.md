@@ -1,5 +1,11 @@
 # ESP32-PCNT
 
+Written by Serena Ramley, Jan. 20, 2020, with reference to (i) and (ii) pulse counter references.
+
+This code has been tested from 1 kHz to 3 MHz (maximum output of available frequency generator)
+
+At the time of writing this code, no other straightforward ESP32 pulse counter was available, as noted by a user 10 months prior: https://www.reddit.com/r/esp32/comments/b675g6/implementing_the_pulse_counter_mixing_arduino_and/
+
 ## Set up your IDE
 (i) Download the Arduino IDE: https://www.arduino.cc/en/Main/Software <br>
 (ii) Download an FTDI driver: https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers/all <br>
