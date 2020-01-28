@@ -25,7 +25,7 @@
 #include "driver/pcnt.h"
 
 #define PCNT_TEST_UNIT      PCNT_UNIT_0
-#define PCNT_H_LIM_VAL      UINT16_MAX    // Max count value
+#define PCNT_H_LIM_VAL      0x7FFF        // Max count value
 #define PCNT_L_LIM_VAL     -10
 #define PCNT_THRESH1_VAL    1             // Trigger an interrupt after this many counts
 #define PCNT_THRESH0_VAL   -1
